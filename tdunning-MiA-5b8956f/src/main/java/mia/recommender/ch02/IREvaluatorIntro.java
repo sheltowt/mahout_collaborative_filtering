@@ -24,7 +24,7 @@ class IREvaluatorIntro {
 
   public static void main(String[] args) throws Exception {
     RandomUtils.useTestSeed();    
-    DataModel model = new FileDataModel(new File("intro.csv"));
+    DataModel model = new FileDataModel(new File("src/main/java/mia/recommender/ch02/intro.csv"));
 
     RecommenderIRStatsEvaluator evaluator =
       new GenericRecommenderIRStatsEvaluator();
