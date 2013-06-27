@@ -23,7 +23,7 @@ class EvaluatorIntro {
 
   public static void main(String[] args) throws Exception {
     RandomUtils.useTestSeed();
-    DataModel model = new FileDataModel(new File("intro.csv"));
+    DataModel model = new FileDataModel(new File("/home/williamshelton/Desktop/ml-100k/ua.base"));
 
     RecommenderEvaluator evaluator =
       new AverageAbsoluteDifferenceRecommenderEvaluator();
