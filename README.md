@@ -5,6 +5,7 @@ I went through examples of clustering and collaborative filtering using Mahout i
 
 Recommendaton Algorithms-
 1. GenericUserBasedRecommender- user based similarity metric, neighborhood definition and size
+2. 
 2. GenericItemBasedRecommender- Item similarity metric
   a.PearsonCorrelationSimilarity
   b.EuclideanDistanceSimilarity
