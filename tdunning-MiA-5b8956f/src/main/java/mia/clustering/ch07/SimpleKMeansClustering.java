@@ -16,6 +16,7 @@ import org.apache.mahout.clustering.WeightedVectorWritable;
 import org.apache.mahout.clustering.kmeans.Cluster;
 import org.apache.mahout.clustering.kmeans.KMeansDriver;
 import org.apache.mahout.common.distance.EuclideanDistanceMeasure;
+import org.apache.mahout.common.distance.ManhattanDistanceMeasure;
 import org.apache.mahout.math.RandomAccessSparseVector;
 import org.apache.mahout.math.Vector;
 import org.apache.mahout.math.VectorWritable;
@@ -54,7 +55,7 @@ public class SimpleKMeansClustering {
   
   public static void main(String args[]) throws Exception {
     
-    int k = 3;
+    int k = 2;
     
     List<Vector> vectors = getPoints(points);
     
@@ -77,13 +78,13 @@ public class SimpleKMeansClustering {
     
     for (int i = 0; i < k; i++) {
       Vector vec = vectors.get(i);
-      Cluster cluster = new Cluster(vec, i, new EuclideanDistanceMeasure());
+      Cluster cluster = new Cluster(vec, i, new ManhattanDistanceMeasure());
       writer.append(new Text(cluster.getIdentifier()), cluster);
     }
     writer.close();
     
     KMeansDriver.run(conf, new Path("testdata/points"), new Path("testdata/clusters"),
-      new Path("output"), new EuclideanDistanceMeasure(), 0.001, 10,
+      new Path("output"), new ManhattanDistanceMeasure(), 0.001, 10,
       true, false);
     
     SequenceFile.Reader reader = new SequenceFile.Reader(fs,

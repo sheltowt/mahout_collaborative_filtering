@@ -10,6 +10,7 @@
     <file path="/EvaluatorIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373391965560" ignored="false" />
     <file path="/GroupLensDataModelIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373397305871" ignored="false" />
     <file path="/GroupLens10MEvalIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373405564916" ignored="false" />
+    <file path="/SimpleKMeansClustering.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373410638764" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <file leaf-file-name="SimpleKMeansClustering.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mia/clustering/ch07/SimpleKMeansClustering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="32" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.02793296">
+            <state line="65" column="44" selection-start="2315" selection-end="2315" vertical-scroll-proportion="-0.22905028">
               <folding />
             </state>
           </provider>
@@ -629,7 +630,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31773585" sideWeight="0.7549933" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24500665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24500665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -821,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/clustering/ch07/SimpleKMeansClustering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="32" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.02793296">
+        <state line="65" column="44" selection-start="2315" selection-end="2315" vertical-scroll-proportion="-0.22905028">
           <folding />
         </state>
       </provider>
