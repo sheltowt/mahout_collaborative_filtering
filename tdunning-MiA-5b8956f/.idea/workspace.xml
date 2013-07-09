@@ -9,7 +9,7 @@
     <file path="/SlopeOneRecommender.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1372291944883" ignored="false" />
     <file path="/EvaluatorIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373391965560" ignored="false" />
     <file path="/GroupLensDataModelIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373397305871" ignored="false" />
-    <file path="/GroupLens10MEvalIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373403648932" ignored="false" />
+    <file path="/GroupLens10MEvalIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373404289332" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +90,11 @@
       <file leaf-file-name="GroupLens10MEvalIntro.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLens10MEvalIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="60" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.32617188">
+            <state line="29" column="51" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.8027344">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1423#1707#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#1504#1690#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -892,11 +892,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLens10MEvalIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="60" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.32617188">
+        <state line="29" column="51" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.8027344">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1423#1707#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1504#1690#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
           </folding>
         </state>
       </provider>
