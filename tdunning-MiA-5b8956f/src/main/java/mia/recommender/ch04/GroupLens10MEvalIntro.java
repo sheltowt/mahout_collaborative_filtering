@@ -9,6 +9,9 @@ import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
+import org.apache.mahout.cf.taste.impl.recommender.knn.KnnItemBasedRecommender;
+import org.apache.mahout.cf.taste.impl.recommender.knn.NonNegativeQuadraticOptimizer;
+import org.apache.mahout.cf.taste.impl.recommender.knn.Optimizer;
 import org.apache.mahout.cf.taste.impl.recommender.slopeone.SlopeOneRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.svd.ALSWRFactorizer;
 import org.apache.mahout.cf.taste.impl.recommender.svd.SVDRecommender;
@@ -34,7 +37,9 @@ final class GroupLens10MEvalIntro {
     RecommenderBuilder recommenderBuilder = new RecommenderBuilder() {
       @Override
       public Recommender buildRecommender(DataModel model) throws TasteException {
-        return new SVDRecommender(model, new ALSWRFactorizer(model, 10, 0.05, 10));
+        ItemSimilarity similarity = new LogLikelihoodSimilarity(model);
+        Optimizer optimizer = new NonNegativeQuadraticOptimizer();
+        return new KnnItemBasedRecommender(model, similarity, optimizer, 50);
       }
     };
     double score = evaluator.evaluate(recommenderBuilder, null, model, 0.95, 0.05);
