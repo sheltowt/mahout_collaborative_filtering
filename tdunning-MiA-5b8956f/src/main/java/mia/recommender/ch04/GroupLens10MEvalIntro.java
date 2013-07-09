@@ -10,6 +10,8 @@ import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.slopeone.SlopeOneRecommender;
+import org.apache.mahout.cf.taste.impl.recommender.svd.ALSWRFactorizer;
+import org.apache.mahout.cf.taste.impl.recommender.svd.SVDRecommender;
 import org.apache.mahout.cf.taste.impl.similarity.*;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.neighborhood.UserNeighborhood;
@@ -32,7 +34,7 @@ final class GroupLens10MEvalIntro {
     RecommenderBuilder recommenderBuilder = new RecommenderBuilder() {
       @Override
       public Recommender buildRecommender(DataModel model) throws TasteException {
-        return new SlopeOneRecommender(model);
+        return new SVDRecommender(model, new ALSWRFactorizer(model, 10, 0.05, 10));
       }
     };
     double score = evaluator.evaluate(recommenderBuilder, null, model, 0.95, 0.05);
