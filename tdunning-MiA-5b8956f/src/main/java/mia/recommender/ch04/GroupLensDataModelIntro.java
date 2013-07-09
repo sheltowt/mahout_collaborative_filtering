@@ -18,7 +18,7 @@ class GroupLensDataModelIntro {
   }
 
   public static void main(String[] args) throws Exception {
-    DataModel model = new GroupLensDataModel(new File("ratings.dat"));
+    DataModel model = new GroupLensDataModel(new File("~/Desktop/libimseti/ratings.dat"));
     UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
     UserNeighborhood neighborhood =
       new NearestNUserNeighborhood(100, similarity, model);
