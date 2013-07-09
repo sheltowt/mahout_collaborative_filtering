@@ -9,6 +9,7 @@
     <file path="/SlopeOneRecommender.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1372291944883" ignored="false" />
     <file path="/EvaluatorIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373391965560" ignored="false" />
     <file path="/GroupLensDataModelIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373397305871" ignored="false" />
+    <file path="/GroupLens10MEvalIntro.java" changelist="a0be7f3a-3012-4b0a-91db-4b0dc90876d8" time="1373401495597" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +90,11 @@
       <file leaf-file-name="GroupLens10MEvalIntro.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLens10MEvalIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.41060904">
+            <state line="21" column="38" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.23242188">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1309#1710#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1388#1788#0" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,10 +103,19 @@
       <file leaf-file-name="GroupLensDataModelIntro.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLensDataModelIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="38" selection-start="886" selection-end="954" vertical-scroll-proportion="0.0">
+            <state line="15" column="33" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommenderIntro.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch02/RecommenderIntro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="10" selection-start="972" selection-end="1162" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,9 +159,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1377" />
-    <option name="height" value="877" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -342,6 +352,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ch04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdunning-MiA-5b8956f" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recommender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,7 +682,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="24" width="1377" height="877" extended-state="7" />
+    <frame x="64" y="-4" width="1377" height="905" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -659,8 +703,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31773585" sideWeight="0.74550486" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25449517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31773585" sideWeight="0.7549933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24500665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,20 +819,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch02/RecommenderIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="34" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.6568421">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch02/SlopeOneRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="65" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.24210526">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1572#1788#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1572#1788#0" expanded="false" />
+            <element signature="e#1777#1778#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,7 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="6" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,9 +874,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch02/RecommenderIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="972" selection-end="1162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLensDataModelIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="886" selection-end="954" vertical-scroll-proportion="0.0">
+        <state line="15" column="33" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -848,11 +892,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLens10MEvalIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.41060904">
+        <state line="21" column="38" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.23242188">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1309#1710#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1388#1788#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
           </folding>
         </state>
       </provider>
