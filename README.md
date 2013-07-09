@@ -9,9 +9,13 @@ Recommendaton Algorithms-
 
 2. GenericItemBasedRecommender- Item similarity metric
   a.PearsonCorrelationSimilarity
+
   b.EuclideanDistanceSimilarity
+
   c.TanimotoCoefficientSimilarity
+  
   d.LogLikelihoodSimilarity
+  
 3. SlopeOneRecommender
 4. 4. SVD Recommender
 5. 5. KnnItemBasedRecommender
