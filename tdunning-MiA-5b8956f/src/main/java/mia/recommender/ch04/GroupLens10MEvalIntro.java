@@ -7,8 +7,7 @@ import org.apache.mahout.cf.taste.example.grouplens.GroupLensDataModel;
 import org.apache.mahout.cf.taste.impl.eval.AverageAbsoluteDifferenceRecommenderEvaluator;
 import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
-import org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommender;
-import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
+import org.apache.mahout.cf.taste.impl.recommender.*;
 import org.apache.mahout.cf.taste.impl.recommender.knn.KnnItemBasedRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.knn.NonNegativeQuadraticOptimizer;
 import org.apache.mahout.cf.taste.impl.recommender.knn.Optimizer;
@@ -37,9 +36,9 @@ final class GroupLens10MEvalIntro {
     RecommenderBuilder recommenderBuilder = new RecommenderBuilder() {
       @Override
       public Recommender buildRecommender(DataModel model) throws TasteException {
-        ItemSimilarity similarity = new LogLikelihoodSimilarity(model);
-        Optimizer optimizer = new NonNegativeQuadraticOptimizer();
-        return new KnnItemBasedRecommender(model, similarity, optimizer, 50);
+        UserSimilarity similarity = new LogLikelihoodSimilarity(model);
+        ClusterSimilarity clusterSimilarity = new FarthestNeighborClusterSimilarity(similarity);
+        return new TreeClusteringRecommender(model, clusterSimilarity, 10);
       }
     };
     double score = evaluator.evaluate(recommenderBuilder, null, model, 0.95, 0.05);
