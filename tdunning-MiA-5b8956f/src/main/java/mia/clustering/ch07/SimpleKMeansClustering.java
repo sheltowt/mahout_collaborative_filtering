@@ -54,7 +54,7 @@ public class SimpleKMeansClustering {
   
   public static void main(String args[]) throws Exception {
     
-    int k = 2;
+    int k = 3;
     
     List<Vector> vectors = getPoints(points);
     
