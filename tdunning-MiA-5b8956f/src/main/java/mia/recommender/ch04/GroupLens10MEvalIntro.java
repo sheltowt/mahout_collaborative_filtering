@@ -5,6 +5,7 @@ import org.apache.mahout.cf.taste.eval.RecommenderBuilder;
 import org.apache.mahout.cf.taste.eval.RecommenderEvaluator;
 import org.apache.mahout.cf.taste.example.grouplens.GroupLensDataModel;
 import org.apache.mahout.cf.taste.impl.eval.AverageAbsoluteDifferenceRecommenderEvaluator;
+import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
 import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity;
@@ -21,7 +22,7 @@ final class GroupLens10MEvalIntro {
   }
 
   public static void main(String[] args) throws Exception {
-    DataModel model = new GroupLensDataModel(new File("ratings.dat"));
+    DataModel model = new FileDataModel(new File("src/main/java/mia/recommender/ch04/ua.base"));
 
     RecommenderEvaluator evaluator =
       new AverageAbsoluteDifferenceRecommenderEvaluator();

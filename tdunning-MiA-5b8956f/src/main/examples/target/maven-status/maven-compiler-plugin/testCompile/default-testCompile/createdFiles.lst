@@ -1,0 +1,5 @@
+org/apache/mahout/examples/MahoutTestCase.class
+org/apache/mahout/clustering/display/ClustersFilterTest.class
+org/apache/mahout/classifier/sgd/LogisticModelParametersTest.class
+org/apache/mahout/classifier/sgd/ModelDissectorTest.class
+org/apache/mahout/classifier/sgd/TrainLogisticTest.class
