@@ -8,6 +8,7 @@ Recommendaton Algorithms-
 1. GenericUserBasedRecommender- user based similarity metric, neighborhood definition and size
 
 2. GenericItemBasedRecommender- Item similarity metric
+
   a.PearsonCorrelationSimilarity
 
   b.EuclideanDistanceSimilarity
@@ -17,8 +18,11 @@ Recommendaton Algorithms-
   d.LogLikelihoodSimilarity
   
 3. SlopeOneRecommender
-4. 4. SVD Recommender
-5. 5. KnnItemBasedRecommender
-6. 6. TreeClusteringRecommender
+
+4. SVD Recommender
+
+5. KnnItemBasedRecommender
+
+6. TreeClusteringRecommender
 
 
