@@ -82,17 +82,17 @@ public class TrainNewsGroups {
 		
 /*		for (File file : files) {
 			  BufferedReader reader = new BufferedReader(new FileReader(file));
-			  String ng = file.getParentFile().getName();     
+			  String ng = file.getParentFile().getName();
 			  int actual = newsGroups.intern(ng);
 			  Multiset<String> words = ConcurrentHashMultiset.create();
-			  
+
 			  String line = reader.readLine();
 			  while (line != null && line.length() > 0) {
-			    if (line.startsWith("Lines:")) {              
+			    if (line.startsWith("Lines:")) {
 			      String count = Iterables.get(onColon.split(line), 1);
 			      try {
 			        lineCount = Integer.parseInt(count);
-			        averageLineCount += (lineCount - averageLineCount) 
+			        averageLineCount += (lineCount - averageLineCount)
 			            / Math.min(k + 1, 1000);
 			      } catch (NumberFormatException e) {
 			        lineCount = averageLineCount;
@@ -104,15 +104,15 @@ public class TrainNewsGroups {
 			    do {
 			      StringReader in = new StringReader(line);
 			      if (countHeader) {
-			        countWords(analyzer, words, in);    
+			        countWords(analyzer, words, in);
 			      }
 			      line = reader.readLine();
 			    } while (line.startsWith(" "));
 			  }
-			  countWords(analyzer, words, reader);      
+			  countWords(analyzer, words, reader);
 			  reader.close();
 			}
-		
+
 		Vector v = new RandomAccessSparseVector(FEATURES);
 		bias.addToVector(null, 1, v);
 		lines.addToVector(null, lineCount / 30, v);
@@ -121,7 +121,7 @@ public class TrainNewsGroups {
 		  encoder.addToVector(word, Math.log(1 + words.count(word)), v);
 		}
 		*/
-		
+
 		/*double mu = Math.min(k + 1, 200);
 		double ll = learningAlgorithm.logLikelihood(actual, v);  #1
 		averageLL = averageLL + (ll - averageLL) / mu;
@@ -132,7 +132,7 @@ public class TrainNewsGroups {
 
 		int correct = (estimated == actual? 1 : 0);
 		averageCorrect = averageCorrect + (correct - averageCorrect) / mu;*/
-		
+
 /*		learningAlgorithm.train(actual, v);
 		k++;
 		int bump = bumps[(int) Math.floor(step) % bumps.length];
@@ -140,7 +140,7 @@ public class TrainNewsGroups {
 		if (k % (bump * scale) == 0) {
 		  step += 0.25;
 		  System.out.printf("%10d %10.3f %10.3f %10.2f %s %s\n",
-		       k, ll, averageLL, averageCorrect * 100, ng, 
+		       k, ll, averageLL, averageCorrect * 100, ng,
 		       newsGroups.values().get(estimated));
 		}
 		learningAlgorithm.close();*/

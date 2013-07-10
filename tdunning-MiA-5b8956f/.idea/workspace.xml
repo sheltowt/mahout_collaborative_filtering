@@ -100,8 +100,12 @@
       <file leaf-file-name="TrainNewsGroups.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mia/classifier/ch14/TrainNewsGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="87" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.36940837">
-              <folding />
+            <state line="157" column="86" selection-start="5559" selection-end="5559" vertical-scroll-proportion="0.79418343">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1654#1676#0" expanded="true" />
+                <element signature="e#2371#2377#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLensDataModelIntro.java" />
         <option value="$PROJECT_DIR$/src/main/java/mia/recommender/ch04/GroupLens10MEvalIntro.java" />
         <option value="$PROJECT_DIR$/src/main/java/mia/clustering/ch07/SimpleKMeansClustering.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mia/classifier/ch14/TrainNewsGroups.java" />
       </list>
     </option>
   </component>
@@ -678,19 +683,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34024897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31773585" sideWeight="0.7549933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31773585" sideWeight="0.65975106" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24500665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -842,8 +847,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mia/classifier/ch14/TrainNewsGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="87" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.36940837">
-          <folding />
+        <state line="157" column="86" selection-start="5559" selection-end="5559" vertical-scroll-proportion="0.79418343">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1654#1676#0" expanded="true" />
+            <element signature="e#2371#2377#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,6 @@
+2013-07-10T22:45:11.759Z INFO Fetching jar file.
+2013-07-10T22:45:22.439Z INFO Working dir /mnt/var/lib/hadoop/steps/1
+2013-07-10T22:45:22.440Z INFO Executing /usr/lib/jvm/java-6-sun/bin/java -cp /home/hadoop/conf:/usr/lib/jvm/java-6-sun/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/1 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/1/tmp -Djava.library.path=/home/hadoop/native/Linux-i386-32 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/1/mahout-core-0.7-job.jar org.apache.mahout.clustering.kmeans.KMeansDriver --input s3n://news-vecs/part-out.vec --clusters s3n://news-vecs/kmeans/clusters-9-11/ -k 10 --output s3n://news-vecs/out-9-11/ --distanceMeasure org.apache.mahout.common.distance.CosineDistanceMeasure --convergenceDelta 0.001 --overwrite --maxIter 50 --clustering
+2013-07-10T22:45:33.989Z INFO Execution ended with ret val 1
+2013-07-10T22:45:33.989Z WARN Step failed with bad retval
+2013-07-10T22:45:40.041Z INFO Step created jobs: 
